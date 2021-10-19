@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ad4ca4be1a35442a31b1944e5777e7, type: 3}
+  m_Name: Heat
+  m_EditorClassIdentifier: 
+  abilityName: Heat
+  damage: {x: 9, y: 14}
+  cooldown: 0.001
+  range: 15
+  castSpeed: 4
+  projectileSpeed: 40
+  radius: 1
+  projectile: {fileID: 1237282092558275570, guid: 350d643bc87af2242821b0bbcf33a9f4,
+    type: 3}
+  fireSound: {fileID: 0}
